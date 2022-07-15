@@ -130,8 +130,9 @@ export default {
 .LoginBigComitu {
   width: 100%;
   height: 100%;
-  background: url('https://ts1.cn.mm.bing.net/th/id/R-C.dab436e6a9d23101d719c1f3dd1a76a4?rik=ecsSPgiqEPBeNQ&riu=http%3a%2f%2fwww.shijuepi.com%2fuploads%2fallimg%2f201115%2f1-2011151G454.jpg&ehk=61OG%2bh8posKeFHHqLOOPJLQh6brnOHElxrxY9xRbGY4%3d&risl=&pid=ImgRaw&r=0')
-    no-repeat 0 0;
+  background: url('../../assets/imgs/big.jpg') no-repeat 0 0;
+  width: 100%;
+  height: 100%;
 }
 .LoginLoding {
   width: 100%;
