@@ -7,7 +7,9 @@
     ></el-aside>
     <el-container>
       <el-header><HeadView :user="User"></HeadView></el-header>
-      <el-main><router-view></router-view></el-main>
+      <el-main>
+        <router-view></router-view>
+      </el-main>
     </el-container>
   </el-container>
 </template>
@@ -16,6 +18,7 @@ import HeadView from './HeadView/HeadViwe.vue'
 import LeftBarT from './LeftBar/LeftSidebar.vue'
 import { HomeLeftSidebar, User } from '../../api/user'
 export default {
+  // name: 'Breadcrumb',
   components: { LeftBarT, HeadView },
   data() {
     return {
